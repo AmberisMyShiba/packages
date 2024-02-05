@@ -73,7 +73,7 @@ HOST_CONFIGURE_ARGS = \
 	--dist-compression-formats=gz \
 	--enable-missing-tools \
 	--disable-sanitizers \
-	--release-channel=nightly \
+	--release-channel=stable \
 	--enable-cargo-native-static \
 	--set=llvm.download-ci-llvm=true \
 	$(TARGET_CONFIGURE_ARGS)
